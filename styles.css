@@ -1,0 +1,130 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}	
+body {
+	padding: 0px;
+	margin-top: 0px;
+	font-family: Segoe UI;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.homenav {
+	background-color: #c80000;
+	padding: 5px 5px 1px 10px;
+	float: left;
+}
+ul#menu {
+	margin: 0px, auto;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	background-image: url("pics/carb.jpg");
+	background-color: #222;
+}
+header {
+	position: sticky;
+	top: 0;
+	background-image: url("pics/carb.jpg");
+	background-color: #222;
+	margin: 0px 0px 0px 0px;
+	padding-bottom: 47px;
+}
+section {
+	clear: both;
+	margin: 10px 10px 5px 10px;
+	background-color: #f5f2f2;
+}
+ul#menu, ul.dropdown, ul.dropdown-content {
+	list-style-type: none;
+}
+ul#menu li {
+	min-width: 170px;
+	text-align: center;
+	position: relative;
+	float: left;
+	margin-bottom: 0px;
+}
+ul#menu a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: Verdana;
+}
+ul#menu .dropdown li {
+	background-color: #202020;
+	min-width: 170px;
+}
+ul#menu .dropdown a {
+	margin-top: 0px;
+}
+ul#menu .dropdown-content a {
+	margin-left: 0px;
+}
+ul#menu li:hover > a {
+	background-color: rgba(240,0,0,0.4);
+	border-bottom: 5px solid #c00000;
+}
+ul#menu li:hover a:hover {
+	background-color: #de0803;
+	border-bottom: 5px solid #c00000;
+}
+ul#menu ul.dropdown {
+	display: none;
+	position: absolute;
+	top: 52px;
+	left: 0px;
+	z-index: 2;
+}
+ul#menu ul.dropdown:hover {
+	position: absolute;
+	top: 47px;
+	left: 0px;
+}	
+ul#menu ul.dropdown-content {
+	display: none;
+	position: absolute;
+	top: 0px;
+	left: 170px;
+	z-index: 2;
+	border-top: 5px solid #202020;
+}
+ul#menu ul.dropdown-content:hover {
+	position: absolute;
+	top: 0px;
+	left: 170px;
+	border-top: 0px;
+}
+ul#menu li:hover .dropdown {
+	display: block;
+}
+ul#menu .dropdown li:hover .dropdown-content {
+	display: block;
+}
+.mainbody {
+	margin: 10px 50px;
+	background-color: #f5f2f2;
+	padding: 50px 50px;
+}
+ul#menu .active {
+	border-bottom: 5px solid #d90000;
+	background-color: rgba(240,0,0,0.4);
+}
+.footer{
+	text-align: center;
+	color: #AAA;
+	font-size: 14px;
+	background-color: #fff;
+	padding-top: 4px;
+	margin: 10px 0px 0px 0px;
+}
+div#header-image {
+	background-color: #202020;
+	width: 100%;
+	margin-bottom: -10px;
+}
